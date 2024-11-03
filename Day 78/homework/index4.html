@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="parented">
+        <p>davit</p>
+        <p>gio</p>
+    </div>
+
+    <script>
+        const parentElement = document.getElementById('parented');
+
+        if (parentElement.hasChildNodes()) {
+            console.log('Parent element has child nodes.');
+        } else {
+            console.log('Parent element has no child nodes.');
+        }
+
+    </script>
+
+</body>
+
+</html>

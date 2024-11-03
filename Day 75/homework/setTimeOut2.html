@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Countdown from 5 to 1</h1>
+    <script>
+        function countdownFromFive() {
+            let number = 5;
+
+            const countdown = () => {
+                if (number > 0) {
+                    console.log(number);
+                    number--;
+                    setTimeout(countdown, 1000); 
+                } else {
+                    console.log("Countdown has finished!");
+                }
+            };
+
+            countdown(); 
+        }
+
+        countdownFromFive();
+
+    </script>
+</body>
+
+</html>

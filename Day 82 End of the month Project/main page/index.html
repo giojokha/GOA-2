@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav>
+            <h1 class="logo">Unity Bank</h1>
+            <ul>
+                <li><a href="#" id="a1">Home</a></li>
+                <li><a href="#" id="a2">About Us</a></li>
+                <li><a href="#" id="a3">Transactions</a></li>
+                <li><a href="#" id="a4">Currency</a></li>
+                <li><a href="#" id="a5">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- main  -->
+    <main>
+        <section class="home">
+            <h2 class="home-title">Welcome to Unity Bank</h2>
+            <p class="home-p">Your trusted financial partner.</p>
+        </section>
+
+
+<!-- user -->
+        <section class="account-summary">
+            <div class="acc-information-container">
+            <h2 class="account-information-title">Account Information</h2>
+            <span id="ac-inf-span1">Name: John</span><br>
+            <span id="ac-inf-span2">Lastname: Williams</span><br>
+            <span id="ac-inf-span3">Exp Date: 05/27</span><br>
+            <span id="ac-inf-span4">CN: 2184 1932 6291 4561</span><br>
+            <span id="ac-inf-span5">PN: 87128934509</span><br>
+            <span id="ac-inf-span6">Balance: <span id="balance">100.00</span>₾</span><br>
+            </div>
+             <h2 class="user-name">John Williams</h2>
+            <img src="/eps10-grey-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg" alt="user picture" id="picture" />
+            <div class="account-details">
+            </div>
+        </section>
+<!-- transactions -->
+
+<!-- trasfer side -->
+        <section class="transfer-section">
+            <h2 class="trasnfer-title">Transfer Funds</h2>
+            <form id="transfer-form">
+                <label for="amount">Amount:</label><br>
+                <input type="number" id="amount" required placeholder="amount cash"><br>
+                <br>
+                <label for="recipient">Recipient:</label><br>
+                <input type="text" id="recipient" required placeholder="recipient to"><br>
+                <br>
+                <button type="button" id="transfer-btn">Transfer</button>
+            </form>
+            <p id="transfer-message"></p>
+        </section>
+
+
+<!-- deposit side -->
+        <section class="deposit-page">
+            <h2 class="deposit-title">Deposit Cash Here</h2>
+
+            <form id="deposit-form">
+            <label for="deposit">Deposit:</label><br>
+            <input type="text" id="deposit" placeholder="deposit cash" /><br><br>
+            <label for="deposit-btc">Deposit Bitcoin</label><br>
+            <input type="text" id="deposit-btc" placeholder="deposit bitcoin" /><br><br>
+            <button id="deposit-btn" type="button">Submit</button>
+            <p id="deposit-message"></p>
+        </form>
+         </senction>
+    </main>
+<br><br>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We are committed to providing the best banking experience. Our services include savings accounts, loans, and more.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: unitybank@gmail.com</p>
+                <p>Phone: +995 555 555 555</p>
+                <p>Address: GOA st., Tbilisi, Georgia</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Unity. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

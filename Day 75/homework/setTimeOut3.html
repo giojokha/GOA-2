@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Message</title>
+</head>
+
+<body>
+    <div id="successMessage">Success! Your action was completed.</div>
+    <script>
+        function showSuccessMessage() {
+            const messageDiv = document.getElementById('successMessage');
+            messageDiv.style.display = 'block';
+            setTimeout(() => {
+                messageDiv.style.display = 'none'; 
+            }, 5000);
+        }
+
+        showSuccessMessage();
+    </script>
+</body>
+
+</html>

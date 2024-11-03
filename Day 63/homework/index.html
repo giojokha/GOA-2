@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Project</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bank Account Form</h1>
+        <form id="bankForm">
+            <div class="form-group">
+                <label for="accountHolder">Account Holder Name:</label>
+                <input type="text" id="accountHolder" name="accountHolder" required>
+            </div>
+            <div class="form-group">
+                <label for="accountNumber">Account Number:</label>
+                <input type="text" id="accountNumber" name="accountNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="balance">Initial Balance:</label>
+                <input type="number" id="balance" name="balance" required>
+            </div>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+
+    <script src="./node.js"></script>
+
+</html>
